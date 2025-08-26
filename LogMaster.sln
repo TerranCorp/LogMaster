@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogMaster", "LogMaster\LogMaster.csproj", "{47716865-EFDF-4B3F-B89B-D8E4C42529B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47716865-EFDF-4B3F-B89B-D8E4C42529B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47716865-EFDF-4B3F-B89B-D8E4C42529B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47716865-EFDF-4B3F-B89B-D8E4C42529B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47716865-EFDF-4B3F-B89B-D8E4C42529B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50AD2285-9FBD-427B-B4A5-2D3DFA8A61EF}
+	EndGlobalSection
+EndGlobal
