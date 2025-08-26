@@ -30,7 +30,7 @@ public class RainbowDashboard
 
         while (!stop)
         {
-            // 1️⃣ Dynamic system info
+            // Dynamic system info
             double cpuUsage = GetCpuUsage(currentProcess, 50);
             long memoryMB = currentProcess.WorkingSet64 / 1024 / 1024;
             int threads = currentProcess.Threads.Count;
@@ -43,7 +43,7 @@ public class RainbowDashboard
             counter++;
             elapsedMs += _updateDelayMs;
 
-            // 2️⃣ Print ASCII rainbow header every 20 seconds
+            // Print ASCII rainbow header every 20 seconds
             if (elapsedMs >= 2000)
             {
                 for (int i = 0; i < 20; i++)
@@ -54,7 +54,7 @@ public class RainbowDashboard
                 elapsedMs = 0;
             }
 
-            // 3️⃣ Periodically print source code
+            // Periodically print source code
             if (counter % _sourceInterval == 0 && File.Exists(_sourceFilePath))
             {
                 string[] lines = File.ReadAllLines(_sourceFilePath);
@@ -65,14 +65,14 @@ public class RainbowDashboard
                 }
             }
 
-            // 4️⃣ Check for key press to stop
+            // Check for key press to stop
             if (_waitForKey && Console.KeyAvailable)
             {
                 Console.ReadKey(true);
                 stop = true;
             }
 
-            // 5️⃣ Delay for smooth updates
+            // Delay for smooth updates
             Thread.Sleep(_updateDelayMs);
         }
 
