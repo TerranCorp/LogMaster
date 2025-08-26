@@ -44,7 +44,7 @@ public class RainbowDashboard
             elapsedMs += _updateDelayMs;
 
             // Print ASCII rainbow header every 20 seconds
-            if (elapsedMs >= 2000)
+            if (elapsedMs >= 20000)
             {
                 for (int i = 0; i < 20; i++)
                 {
