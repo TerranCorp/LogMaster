@@ -1,8 +1,4 @@
-﻿using LogMaster;
-using System;
-using System.Diagnostics;
-using System.IO;
-using System.Threading;
+﻿using System.Diagnostics;
 
 public class RainbowDashboard
 {

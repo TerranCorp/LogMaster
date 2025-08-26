@@ -1,6 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-
 LogMaster.LogMaster logMaster = new LogMaster.LogMaster();
 
 logMaster.IsConsoleLogEnabled = true;
